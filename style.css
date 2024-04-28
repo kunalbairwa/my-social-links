@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+body{
+    background-color: black;    
+}
+
+
+.container{
+    margin: 30px auto;
+    width: 150vh;
+    height: 800px;
+    background-color: hsl(0, 0%, 12%);
+    padding-top: 30px;
+    padding-bottom: 50px;
+     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6); /* Box shadow */
+     box-shadow: 0 0 20px rgba(255, 0, 255, 0.5); /* Neon glow effect */
+     border: 2px solid rgba(255, 0, 255, 0.5); /* Neon border */
+     border-radius: 5px;
+    
+    
+}
+
+.main{
+
+    margin:130px auto;
+    width: 40vh;    
+    height: 600px;
+    background-color:hsl(0, 0%, 0%);
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.5); /* Neon glow effect */
+    border: 2px solid rgba(255, 0, 255, 0.5); /* Neon border */
+
+   
+  
+
+
+}
+
+.main img {
+
+     border-radius: 5rem;
+     /* margin : 40px; */
+     margin-top: 50px;
+     margin-left: 150px;
+}
+
+h2{
+    color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 110px;
+   
+    
+}
+h3{
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: hsl(75, 94%, 57%);
+}
+p{
+    margin-left: 105px;
+    color: hsl(0, 0%, 70%);
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+button{
+
+    width: 290px;
+    color: white;
+    height: 40px;
+    border-radius: 0.5rem;
+    background-color: rgb(67, 67, 67);
+    margin-left: 45px;
+    margin-top: 25px;
+    border: none;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.5); /* Neon glow effect */
+    border: 2px solid rgba(255, 0, 255, 0.5); /* Neon border */
+}
+
+button:hover{
+    background-color: rgb(60, 60, 60);
+} 
+button:link{
+    background-color: rgb(60, 60, 60);
+
+}
+button:active{
+    background-color: rgb(50, 50, 50);
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%; /* Take full width */
+        height: auto; /* Adjust height automatically */
+    }
+
+    .main {
+        margin: 30px auto; /* Adjust margin for smaller screens */
+        width: 80%; /* Adjust width for smaller screens */
+        height: auto; /* Adjust height automatically */
+    }
+
+    .main img {
+        margin-left: 50%; /* Center the image */
+        transform: translateX(-50%); /* Center the image horizontally */
+    }
+
+    h2, h3, p, button {
+        margin-left: 5%; /* Adjust margin for smaller screens */
+        margin-right: 5%; /* Adjust margin for smaller screens */
+    }
+}
